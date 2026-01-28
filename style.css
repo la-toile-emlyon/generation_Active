@@ -10,9 +10,21 @@
 footer{
     background-color: #001639;
     color: white;
+    padding: 30px;
 }
 
 
+/* Background*/
+
+.background{
+    background-color: #3732F1;
+    color: white;
+}
+
+
+.img{
+    display: block;
+}
 
 
 /* LES CLASSES FONCTIONNELLES FLEX */
@@ -32,6 +44,10 @@ footer{
 
 .space-evenly {
     justify-content: space-evenly;
+}
+
+.justify-content {
+    justify-content: space-between;
 }
 
 .justify-center {
@@ -85,7 +101,7 @@ footer{
 }
 
 .w-25 {
-    width: 33%;
+    width: 25%;
 }
 
 .w-75 {
@@ -94,6 +110,14 @@ footer{
 
 .w-30 {
     width: 30%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-10 {
+    width: 10%;
 }
 
 
@@ -116,7 +140,7 @@ footer{
 
 }
 
-.header1 {
+.header {
    display: flex;
   justify-content: space-between;
   align-items: center;
@@ -126,11 +150,21 @@ footer{
   border-radius: 12px;
   width: 90%;
   margin: auto;
-    box-shadow: 5px 4px 5px 3px #0058e519;
+    box-shadow: 0px 0px 50px  #0058e519;
+    a{
+        color:#000;
+    }
 }
 
-.margin-top-20 {
+.margin-top-40 {
     margin-top: 40px;
+}
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-bottom-15{
+    margin-bottom: 20px;
 }
 
 .bg-color-blanc {
@@ -138,51 +172,107 @@ footer{
 }
 
 
-.button-header {
-    background-color: #DBE2F5;
-    padding: 10px 20px;
-    border-radius: 8px;
-}
+.mini-card {
+  min-width: 180px;
+  padding: 14px;
+  background: #f2f4ff;
+  border-radius: 12px;
+  font-size: 13px;
 
+  box-shadow:
+    0 6px 14px rgba(0, 0, 0, 0.08);
+}
 
 
 .card {
   max-width: 600px;
-  background: #eef2ff; /* light bluish background */
+  background: #eef2ff; 
   border-radius: 24px;
   padding: 24px 28px;
-
+  text-align: center;
   box-shadow:
     0 10px 25px rgba(0, 0, 0, 0.08),
     0 4px 10px rgba(0, 0, 0, 0.04);
-
+  margin: 0 auto;
+   margin-top: 10px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-.mini-card {
-  
-  width: 220px;
-  padding: 20px 18px;
-  background-color: #fff;
-  border-radius: 16px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.4;
-  color: #000;
+
+.card2 {
+  max-width: 600px;
+  background: #ffffff; 
+  border-radius: 24px;
+  padding: 24px 28px;
+  margin: 0 auto;
+  margin-top: 10px;
   box-shadow:
-    0 8px 20px rgba(0, 0, 0, 0.08),
-    0 3px 8px rgba(0, 0, 0, 0.04);
+    0 10px 25px rgba(0, 0, 0, 0.08),
+    0 4px 10px rgba(0, 0, 0, 0.04);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-/*marge*/
-
-.texts{
-    align-items: center;
+.text-color-vert{
+    color: #33B079;
 }
 
 
 .text-color-black{
     color: black;
     
+}
+
+
+
+.ombre{
+    
+    filter: drop-shadow(0px 0px 50px #0058e519);
+}
+
+
+/*boutons*/
+
+.bouton{
+    background-color: #1F75FF;
+    padding: 5px 30px;
+    border-radius: 8px;
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.top{
+    padding-bottom: 20px;
+}
+
+.top2{
+    margin-top: 5px;
+}
+
+
+.shadow{
+box-shadow: 0px 0px 50px  #0058e519;
+}
+
+
+.button-header {
+    background-color: rgba(31, 117, 255, 0.142);
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+.button-site {
+    background-color: rgb(31, 117, 255);
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+.carte-info {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 0px 50px  #0058e519;
+    width: 18%;
 }
