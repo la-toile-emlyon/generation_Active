@@ -62,6 +62,10 @@ footer{
     justify-content: flex-start;
 }
 
+.flex-direction{
+    flex-direction: column;
+}
+
 /* alignement verticale */
 
 .align-center {
@@ -140,6 +144,15 @@ footer{
 
 }
 
+.bg-hero-2 {
+    background-image: url('asset/Génération Active/Génération Active/Pexels Photo by Airam Dato-on (1).png');
+    border-radius: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: 100% center;
+}
+
 .header {
    display: flex;
   justify-content: space-between;
@@ -173,14 +186,14 @@ footer{
 
 
 .mini-card {
-  min-width: 180px;
-  padding: 14px;
-  background: #f2f4ff;
-  border-radius: 12px;
-  font-size: 13px;
+ background-color: #eff2f5; 
+  border-radius: 10px;       
+  padding: 25px;
+  width: 260px;              
+  flex-direction: column;    
+  gap: 20px;               
+  box-sizing: border-box;           
 
-  box-shadow:
-    0 6px 14px rgba(0, 0, 0, 0.08);
 }
 
 
@@ -188,7 +201,6 @@ footer{
   max-width: 600px;
   background: #eef2ff; 
   border-radius: 24px;
-  padding: 24px 28px;
   text-align: center;
   box-shadow:
     0 10px 25px rgba(0, 0, 0, 0.08),
@@ -212,6 +224,19 @@ footer{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+.card3 {
+  max-width: 600px;
+  background: #eef2ff; 
+  border-radius: 24px;
+  padding: 24px 28px;
+  text-align: center;
+  box-shadow:
+    0 10px 25px rgba(0, 0, 0, 0.08),
+    0 4px 10px rgba(0, 0, 0, 0.04);
+  margin: 0 auto;
+   margin-top: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
 .text-color-vert{
     color: #33B079;
 }
@@ -241,6 +266,8 @@ footer{
     margin-top: 20px;
 }
 
+
+/*  Top  */
 .top{
     padding-bottom: 20px;
 }
@@ -248,6 +275,11 @@ footer{
 .top2{
     margin-top: 5px;
 }
+
+.top3{
+    margin-top: 120px;
+}
+
 
 
 .shadow{
