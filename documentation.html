@@ -11,7 +11,7 @@
 <body>
 
     <!-- header -->
-    <header class="flex space-between header margin-top-40 container-1000 margin-bottom-30">
+    <header class="flex space-between header container-1000 margin-bottom-30 fixe">
 
         <a href=""><img class="w-50" src="asset/Génération Active/Génération Active/Frame 64.png" alt=""></a>
 
@@ -41,43 +41,44 @@
             <div class="carte-hero">
                 <h1>Documentation</h1>
                 <h2>Donnons vie aux projets d’une
-                    <span class="text-color-vert">Génération active </span></h2>
+                    <span class="text-color-vert">Génération active </span>
+                </h2>
             </div>
 
 
         </section>
 
         <!-- grande div -->
-        <div class="flex  w-100 container-1000">
+        <div class="flex space-between  w-100 container-1000" >
 
 
             <!-- div gauche -->
-            <div class="carte-navigation margin-top-40 w-33 margin-right-50 ">
+            <div class="carte-navigation margin-top-40 w-25">
                 <!-- barre nav -->
-                <nav>
+                <nav class="sticky shadow">
                     <ul>
-                        <li>
+                        <li class="top2">
                             <a href="">contexte</a>
                         </li>
-                        <li>
+                        <li class="top2">
                             <a href="">persona</a>
                         </li>
-                        <li>
+                        <li class="top2">
                             <a href="">problématique</a>
                         </li>
-                        <li>
+                        <li class="top2">
                             <a href="">parcours utilisateur</a>
                         </li>
-                        <li>
+                        <li class="top2">
                             <a href="">wireframe</a>
                         </li>
-                        <li>
+                        <li class="top2">
                             <a href="">Identité graphique et hi-fi</a>
                         </li>
-                        <li>
+                        <li class="top2">
                             <a href="">Retours de tests utilisateurs</a>
                         </li>
-                        <li>
+                        <li class="top2">
                             <a href="">Perspectives d’évolution</a>
                         </li>
                     </ul>
@@ -94,7 +95,8 @@
 
                     <h2 class="margin-bottom-30">Contexte</h2>
 
-                    <p class="margin-bottom-30">Dans de nombreux quartiers urbains, des habitants comme Karim souhaitent s’engager localement
+                    <p class="margin-bottom-30">Dans de nombreux quartiers urbains, des habitants comme Karim souhaitent
+                        s’engager localement
                         pour créer des projets utiles, renforcer le lien social et redonner une image positive à leur
                         quartier.</p>
                     <p>Cependant, malgré leur motivation, ils se heurtent rapidement à un manque de réseau, à la
@@ -107,10 +109,12 @@
                             <p class="mini-card">Manque d’accompagnement et de réseau pour monter un projet local</p>
                         </div>
                         <div>
-                            <p class="mini-card ">Complexité administrative : démarches longues, nombreuses et décourageantes</p>
+                            <p class="mini-card ">Complexité administrative : démarches longues, nombreuses et
+                                décourageantes</p>
                         </div>
                         <div>
-                            <p class="mini-card ">Manque d’espaces fédérateurs pour canaliser l’énergie des jeunes et créer du lien social
+                            <p class="mini-card ">Manque d’espaces fédérateurs pour canaliser l’énergie des jeunes et
+                                créer du lien social
                             </p>
                         </div>
                     </div>
@@ -119,81 +123,84 @@
 
 
                 <!-- section persona -->
-                <section>
+                <section class="margin-top-100">
                     <h2 class="margin-top-40 margin-bottom-30">Persona</h2>
 
                     <!-- grande div -->
                     <div>
                         <!-- div portrait -->
                         <div class="card">
+                          <div class="texte-centre">
                             <img src="asset/Génération Active/Génération Active/small.png" alt="">
                             <h3>Karim Benkader</h3>
                             <p>38 ans</p>
-                               <div class="card2">
-                            <!-- div bio -->
-                            <div>
-                                <h3>Biographie</h3>
-                                <p>« Je suis Karim, je travaille avec les jeunes de mon quartier et je veux créer un
-                                    city-stade pour leur offrir un espace sportif sûr et fédérateur. »</p>
-                            </div>
-
-                            <!-- div flex -->
-                            <div>
-                               <div class="flex space-around margin-top-20">
-                                <!-- div centres intérets -->
-                                <div>
-                                    <h3>Centres d’intéret</h3>
-                                    <ul>
-                                        <li>Sport</li>
-                                        <li>Vie de quartier</li>
-                                        <li>Engagement social</li>
-                                    </ul>
-                                </div>
-
-                                <!-- div qualités -->
-                                <div>
-                                    <h3>Qualités</h3>
-                                    <ul>
-                                        <li>Motivé</li>
-                                        <li>Proche du terrain</li>
-                                        <li>Empathique</li>
-                                    </ul>
-                                </div>
-                               </div>
-                                <!-- div points -->
+                          </div>
+                            <div class="card2">
+                                <!-- div bio -->
                                 <div class="margin-top-20">
-                                    <h3>Points de frustration</h3>
-                                    <div class="flex justify-content space-around">
-                                        <div class="mini-card">
-                                            <i></i>
-                                            <p>Manque de connaissances administratives</p>
+                                    <h3>Biographie</h3>
+                                    <p class="margin-top-20">« Je suis Karim, je travaille avec les jeunes de mon quartier et je veux créer un
+                                        city-stade pour leur offrir un espace sportif sûr et fédérateur. »</p>
+                                </div>
+
+                                <!-- div flex -->
+                                <div>
+                                    <div class="flex space-around margin-top-20">
+                                        <!-- div centres intérets -->
+                                        <div class="margin-top-20">
+                                            <h3>Centres d’intéret</h3>
+                                            <ul class="margin-top-20">
+                                                <li>Sport</li>
+                                                <li>Vie de quartier</li>
+                                                <li>Engagement social</li>
+                                            </ul>
                                         </div>
-                                        <div class="mini-card">
-                                            <i></i>
-                                            <p>Vite dépassé dans la gestion des tâches</p>
-                                        </div>
-                                        <div class="mini-card">
-                                            <i></i>
-                                            <p>Trop de documents dispersés et des procédures longues</p>
+
+                                        <!-- div qualités -->
+                                        <div class="margin-top-20">
+                                            <h3>Qualités</h3>
+                                            <ul class="margin-top-20">
+                                                <li>Motivé</li>
+                                                <li>Proche du terrain</li>
+                                                <li>Empathique</li>
+                                            </ul>
                                         </div>
                                     </div>
+                                    <!-- div points -->
+                                    <div class="margin-top-20">
+                                        <h3>Points de frustration</h3>
+                                        <div class="flex justify-content space-around margin-top-20">
+                                            <div class="mini-card">
+                                                <i></i>
+                                                <p>Manque de connaissances administratives</p>
+                                            </div>
+                                            <div class="mini-card">
+                                                <i></i>
+                                                <p>Vite dépassé dans la gestion des tâches</p>
+                                            </div>
+                                            <div class="mini-card">
+                                                <i></i>
+                                                <p>Trop de documents dispersés et des procédures longues</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
 
                             </div>
 
                         </div>
-
                     </div>
-                        </div>
 
 
 
                 </section>
 
                 <!-- section problématique -->
-                <section class="card3 margin-top-20">
+                <section class="card3 margin-top-100">
                     <h2>Problématique</h2>
-                    <p class="margin-top-20">Aujourd’hui, dans beaucoup de quartiers urbains, les habitants ont envie de s’engager localement,
+                    <p class="margin-top-20">Aujourd’hui, dans beaucoup de quartiers urbains, les habitants ont envie de
+                        s’engager localement,
                         de créer des projets utiles et de renforcer le lien social.
                         Mais lorsqu’on veut lancer une initiative collective, on se heurte très vite à plusieurs
                         obstacles :
@@ -203,44 +210,48 @@
                 </section>
 
                 <!-- scetion solution -->
-                <section class="card3 margin-top-20">
+                <section class="card3 margin-top-100">
                     <h2>Solution</h2>
-                    <p class="margin-top-20">Notre projet s’inscrit donc dans un contexte de besoin de lien social, d’engagement citoyen mais
+                    <p class="margin-top-20">Notre projet s’inscrit donc dans un contexte de besoin de lien social,
+                        d’engagement citoyen mais
                         surtout de la simplification des démarches associatives, grâce au numérique.</p>
                 </section>
 
                 <!-- section parcours utilisateur -->
-                <section>
-                    <h2></h2>
-                    <img src="asset/Génération Active/Génération Active/image 15.png" alt="">
+                <section  class="margin-top-100">
+                    <h2>Parcours utilisateur</h2>
+                    <img src="asset/Génération Active/Génération Active/image 15.png" alt="" class="w-100">
                 </section>
 
 
                 <!-- section Wireframes -->
 
-                <section>
+                <section class="margin-top-100">
                     <h3>Wireframes</h3>
 
-                    <img src="asset/Génération Active/Génération Active/Rectangle 229.png" alt="">
-                    <img src="asset/Génération Active/Génération Active/Rectangle 228.png" alt="">
-                    <img src="asset/Génération Active/Génération Active/Rectangle 227.png" alt="">
-                    <img src="asset/Génération Active/Génération Active/Rectangle 225.png" alt="">
-                    <img src="asset/Génération Active/Génération Active/Rectangle 223.png" alt="">
-                    <img src="asset/Génération Active/Génération Active/Rectangle 222.png" alt="">
-                    <img src="asset/Génération Active/Génération Active/Rectangle 221.png" alt="">
-
+                    <div class="sliderProjets-container">
+                        
+                        <img src="asset/Génération Active/Génération Active/Rectangle 229.png" alt="">
+                        <img src="asset/Génération Active/Génération Active/Rectangle 228.png" alt="">
+                        <img src="asset/Génération Active/Génération Active/Rectangle 227.png" alt="">
+                        <img src="asset/Génération Active/Génération Active/Rectangle 225.png" alt="">
+                        <img src="asset/Génération Active/Génération Active/Rectangle 223.png" alt="">
+                        <img src="asset/Génération Active/Génération Active/Rectangle 222.png" alt="">
+                        <img src="asset/Génération Active/Génération Active/Rectangle 221.png" alt="">
+                    </div>
 
                 </section>
 
                 <!-- section graphique hi-fi -->
-                <section>
+                <section class="margin-top-100">
                     <h2>Identité graphique et hi-fi</h2>
                     <!-- grande div -->
                     <div>
 
                         <div class="flex space-around margin-top-20">
                             <img class="w-10" src="asset/Frame 185.png" alt="">
-                            <p class="w-33">L’univers graphique s’appuie sur des couleurs bleu et vert pour transmettre confiance et
+                            <p class="w-33">L’univers graphique s’appuie sur des couleurs bleu et vert pour transmettre
+                                confiance et
                                 fraîcheur, ce sont des couleurs qui donnen confiance et que l’on retrouve souvent dans
                                 les sites et applications corporates</p>
                         </div>
@@ -254,7 +265,8 @@
 
                         <div class="flex space-around margin-top-20">
                             <img class="w-10" src="asset/Frame 204.png" alt="">
-                            <p class="w-33">Nous avons utilisé Poppins pour les titres et Inter pour le reste du texte par ce que ce sont de spotypogrpahies lisibles</p>
+                            <p class="w-33">Nous avons utilisé Poppins pour les titres et Inter pour le reste du texte
+                                par ce que ce sont de spotypogrpahies lisibles</p>
                         </div>
 
 
@@ -264,23 +276,23 @@
 
                 <!-- section retour  -->
                 <section>
-                    <h2>Retours de tests</h2>
+                    <h2 class="margin-top-40 margin-bottom-30">Retours de tests</h2>
 
                     <!-- div flex -->
                     <div>
                         <!-- div gauche -->
-                      <div class="flex space-around">
-                        <div>
-                            <h3>Avant</h3>
-                            <img src="asset/Génération Active/Génération Active/Rectangle 217.png" alt="">
+                        <div class="flex space-around">
+                            <div>
+                                <h3>Avant</h3>
+                                <img src="asset/Génération Active/Génération Active/Rectangle 217.png" alt="">
+                            </div>
+                            <!-- div droite -->
+                            <div>
+                                <h3>Après</h3>
+                                <img src="asset/Génération Active/Génération Active/Rectangle 218.png" alt="">
+                            </div>
                         </div>
-                        <!-- div droite -->
-                        <div>
-                            <h3>Après</h3>
-                            <img src="asset/Génération Active/Génération Active/Rectangle 218.png" alt="">
-                        </div>
-                      </div>
-                        <h3>acceuil home</h3>
+                        <h3 class="margin-top-40">acceuil home</h3>
                         <p>Changement de l’acceuil beacoup plus simple et plus facile pour naviguer</p>
                     </div>
                 </section>
@@ -291,19 +303,19 @@
                     <!-- div flex -->
                     <div>
                         <!-- div gauche -->
-                      <div class="flex space-around">
-                        <div>
-                            <h3>Avant</h3>
-                            <img src="asset/Génération Active/Génération Active/Rectangle 19.png" alt="">
+                        <div class="flex space-around margin-top-40">
+                            <div>
+                                <h3 class="margin-bottom-30">Avant</h3>
+                                <img src="asset/Génération Active/Génération Active/Rectangle 19.png" alt="">
+                            </div>
+                            <!-- div droite -->
+                            <div>
+                                <h3 class="margin-bottom-30">Après</h3>
+                                <img src="asset/Génération Active/Génération Active/Frame 64.png" alt="">
+                            </div>
                         </div>
-                        <!-- div droite -->
-                        <div>
-                            <h3>Après</h3>
-                            <img src="asset/Génération Active/Génération Active/Frame 64.png" alt="">
-                        </div>
-                      </div>
-                        <h3>Logo</h3>
-                        <p>On a du changer de logo par un logo plus simple et claire</p>
+                        <h3 class="margin-top-40 ">Logo</h3>
+                        <p class="margin-bottom-30">On a du changer de logo par un logo plus simple et claire</p>
                     </div>
                 </section>
 
@@ -313,17 +325,18 @@
                     <!-- div flex -->
                     <div>
                         <!-- div gauche -->
-                      <div class="flex space-around">
-                        <div>
-                            <h3>Avant</h3>
-                            <img class="w-33" src="asset/Base ui (1).png" alt="">
+                        <div class="flex space-around">
+                            <div class="w-48">
+                                <h3 class="margin-bottom-30">Avant</h3>
+                                <img class="w-48" src="asset/Etape _ principal (5).png" alt="">
+                            </div>
+                            <!-- div droite -->
+                            <div class="w-48">
+                                <h3 class="margin-bottom-30">Après</h3>
+                                <img class="w-48" src="asset/Etape _ principal (4).png"
+                                    alt="">
+                            </div>
                         </div>
-                        <!-- div droite -->
-                        <div>
-                            <h3>Après</h3>
-                            <img class="w-122" src="asset/Génération Active/Génération Active/Rectangle 218 (1).png" alt="">
-                        </div>
-                      </div>
                         <h3>Les étapes</h3>
                         <p>Nous avons rendu les étapes plus facile a naviguer grâce a des boutons</p>
                     </div>
@@ -333,34 +346,34 @@
 
 
                     <!-- div flex -->
-                    <div>
+                    <div class="margin-top-40">
                         <!-- div gauche -->
-                      <div class="flex space-around">
-                        <div>
-                            <h3>Avant</h3>
-                            <img src="asset/Génération Active/Génération Active/tabbar.png" alt="">
+                        <div class="flex">
+                            <div class="w-48">
+                                <h3>Avant</h3>
+                                <img class="w-48 margin-top-20" src="asset/Génération Active/Génération Active/tabbar.png" alt="">
+                            </div>
+                            <!-- div droite -->
+                            <div class="w-48">
+                                <h3>Après</h3>
+                                <img class="w-48 margin-top-20" src="asset/Génération Active/Génération Active/tabbar (1).png" alt="">
+                            </div>
                         </div>
-                        <!-- div droite -->
-                        <div>
-                            <h3>Après</h3>
-                            <img src="asset/Génération Active/Génération Active/tabbar (1).png" alt="">
-                        </div>
-                      </div>
-                        <h3>Nav bar</h3>
+                        <h3 class="margin-top-40">Nav bar</h3>
                         <p>Changement de la nav bar car elle n’était pas instinctive et les icons ne sont pas clairs</p>
                     </div>
                 </section>
 
                 <!-- section évolution -->
-                <section>
+                <section class="margin-top-40 margin-bottom-30">
                     <div class="card3">
                         <h2>Perspectives d’évolution</h2>
-                        <p class="margin-top-20">Rajouter des espaces de messageries pour commniquer entre membres de l’asso mais aussi entre
+                        <p class="margin-top-20">Rajouter des espaces de messageries pour commniquer entre membres de
+                            l’asso mais aussi entre
                             associations
                             un annuaire des acteurs locaux (assoc, institutions etc.. )</p>
-                            
-                        <p class="margin-top-20">Une fonctionalité pour gerer les finances et les dépenses de l’association certifiée par
-                            l’état</p>
+
+                        <p class="margin-top-20">Une fonctionalité pour gerer les finances et les dépenses de l’association certifiée par l’état</p>
                     </div>
                 </section>
 
