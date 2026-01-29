@@ -495,9 +495,37 @@ text-align: center;
 
 
 
-
-
-.temoignage.active {
-    background-color: #e6f4ff;
-    border-radius: 10px;
+/* LISTE */
+.temoins-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
+
+/* CONTENEUR FIXE */
+.temoin {
+    cursor: pointer;
+    border-left: 4px solid transparent;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+/* CONTENU QUI BOUGE */
+.temoin-inner {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+/* ACTIF */
+.temoin.active {
+    border-left-color: #1e90ff;
+    background-color: #e6f4ff;
+}
+
+/* HOVER SANS CASSER LE LAYOUT */
+.temoin:hover .temoin-inner {
+    transform: translateX(5px);
+}
+
