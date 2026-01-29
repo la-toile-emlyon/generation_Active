@@ -482,3 +482,22 @@ box-shadow: 0px 0px 50px  #0058e519;
 .texte-centre {
 text-align: center;
 }
+
+
+
+
+
+.border-radius-12{
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+.temoignage.active {
+    background-color: #e6f4ff;
+    border-radius: 10px;
+}
