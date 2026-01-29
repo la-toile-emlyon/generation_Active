@@ -159,7 +159,7 @@ footer{
     border-radius: 12px;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 80vh;
     background-position: 100% , left 120px;
 }
 
@@ -422,7 +422,7 @@ box-shadow: 0px 0px 50px  #0058e519;
 
 
 
-/*   SCROOL   */
+/*   SCROOLL   */
 
 .slider-projets {
     display: flex; /* Affichage en flexbox horizontal */
@@ -455,14 +455,14 @@ box-shadow: 0px 0px 50px  #0058e519;
     height: 200px;
     object-fit: cover; 
     border-radius: 8px;
-    display: block; /* Supprime les espaces blancs en bas de l'image */
+    display: block; 
 }
 .scroll-container * {
     user-select: none;
 }
 
 
-/* FIXED */
+
 
 .fixe{
     position: fixed ;
@@ -495,37 +495,26 @@ text-align: center;
 
 
 
-/* LISTE */
-.temoins-list {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+
+
+
+
+
+
+/* position pour les div autour des telephone */
+
+/* position tel 1 et 3 */
+
+.position-div-gauche{
+    top: 10%;
+    left: -30%;
 }
 
-/* CONTENEUR FIXE */
-.temoin {
-    cursor: pointer;
-    border-left: 4px solid transparent;
-    border-radius: 10px;
-    box-sizing: border-box;
+.position-div-droite{
+    top: 60%;
+    left: 45%;
 }
 
-/* CONTENU QUI BOUGE */
-.temoin-inner {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    transition: transform 0.2s ease, background-color 0.3s ease;
-}
+/* position tel 2 */
 
-/* ACTIF */
-.temoin.active {
-    border-left-color: #1e90ff;
-    background-color: #e6f4ff;
-}
-
-/* HOVER SANS CASSER LE LAYOUT */
-.temoin:hover .temoin-inner {
-    transform: translateX(5px);
-}
 
