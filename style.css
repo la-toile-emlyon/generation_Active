@@ -187,19 +187,51 @@ footer{
     }
 }
 
-.margin-top-100{
-    margin-top: 100px;
+
+.margin-bottom-10{
+    margin-bottom: 10px;
 }
-.margin-top-40 {
-    margin-top: 40px;
+.margin-bottom-15{
+    margin-bottom: 15px;
 }
+
+.margin-bottom-30{
+    margin-bottom: 30px;
+}
+
+.margin-bottom-50{
+    margin-bottom: 50px;
+}
+
 .margin-top-20 {
     margin-top: 20px;
 }
 
-.margin-bottom-15{
-    margin-bottom: 20px;
+.margin-top-40 {
+    margin-top: 40px;
 }
+
+.margin-top-50{
+    margin-top: 50px;
+}
+
+.margin-top-60{
+    margin-top: 60px;
+}
+
+.margin-top-80{
+    margin-top: 80px;
+}
+.margin-top-100{
+    margin-top: 100px;
+}
+
+.margin-top-140{
+    margin-top: 140px;
+}
+
+
+
 
 .bg-color-blanc {
     background-color: rgb(255, 255, 255);
@@ -305,6 +337,8 @@ footer{
 }
 
 
+
+/*footer*/
 /*  Top  */
 .top{
     padding-bottom: 20px;
@@ -317,6 +351,9 @@ footer{
 .top3{
     margin-top: 120px;
 }
+
+
+
 
 
 
@@ -359,9 +396,7 @@ box-shadow: 0px 0px 50px  #0058e519;
     padding-left: 20px;
 }
 
-.margin-bottom-30{
-    margin-bottom: 30px;
-}
+
 
 /*Legende*/
 
@@ -408,7 +443,7 @@ box-shadow: 0px 0px 50px  #0058e519;
 
 
 .bleu2{
-    background-color: rgb(31, 117, 255);
+    background-color: rgb(255, 255, 255);
     padding: 10px 20px;
     border-radius: 8px;
     color: white;
@@ -518,3 +553,114 @@ text-align: center;
 /* position tel 2 */
 
 
+
+
+
+
+
+
+.padding-50{
+    padding: 50px;
+}
+
+
+
+
+
+/* Témoignages - colonne gauche */
+#avisclient .personne {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+
+}
+
+/* si pas actif */
+#avisclient .personne:not(.active):hover {
+  background: #5385e9;
+  transform: translateX(5px);
+}
+
+/* actif fix */
+#avisclient .personne.active {
+  background: #3934F2;
+  transform: translateX(5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+
+
+/* Image */
+#avisclient .personne img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Texte gauche */
+#avisclient .personne p:first-child {
+  font-weight: 600;
+  margin: 0;
+}
+
+#avisclient .personne p:last-child {
+  font-size: 0.85rem;
+  color: #ffffff;
+  margin: 0;
+}
+
+/* Témoignage droite */
+#avis-detail {
+  padding: 24px;
+  border-radius: 16px;
+  transform: translate(0%, 20%);
+}
+
+/* Animation texte */
+.fade {
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.button-temoins {
+    background-color: rgba(31, 117, 255, 0.142);
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+
+.carte-temoignage {
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px  #0058e519;
+    margin-top: -9%;
+   
+}
+
+
+/* Police noir */
+
+body{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+    font-family: poppins, sans-serif;
+}

@@ -15,16 +15,21 @@
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 
 
 </head>
 
-<body class="">
+<body>
 
     <!-- header -->
-    <header class="flex space-between header margin-top-20 container-1000">
+    <header class="flex space-between header margin-top-20 container-1000 fixe">
 
         <a href=""><img class="w-50" src="asset/Génération Active/Génération Active/Frame 64.png" alt=""></a>
 
@@ -44,7 +49,7 @@
     </header>
 
     <!-- main -->
-    <main class="container-1000">
+    <main class="container-1000 margin-top-100">
 
         <!-- section hero -->
         <section class="flex align-center">
@@ -60,11 +65,11 @@
                         dans tous vos projets
                     </h1>
 
-                    <p class="margin-top-20">Health is one of the most important things
+                    <p class="margin-top-50">Health is one of the most important things
                         for us therefore immediately check your
                         health for your good</p>
                     <!-- div bouton -->
-                    <div class="margin-top-20">
+                    <div class="margin-top-50">
                         <a class="button-site w-10" href="">Télécharger</a>
                         <a href=""><img class="w-10" src="" alt=""></a>
                         <a href=""><img class="w-10" src="" alt=""></a>
@@ -76,25 +81,20 @@
 
             </div>
 
-
-
-
-
-
         </section>
 
 
         <!-- section solution -->
-        <section class="margin-top-40">
+        <section class="margin-top-100">
 
             <!-- div titre -->
             <div>
-                <h5 class="bleu">La solution gratuite idéale</h5>
-                <h3>Simplifiez les démarches pour vos projets</h3>
+                <h3 class="bleu margin-bottom-10">La solution gratuite idéale</h3>
+                <h2>Simplifiez les démarches pour vos projets</h2>
             </div>
 
             <!-- div carte -->
-            <div class="flex space-between margin-top-40">
+            <div class="flex space-between margin-top-60">
 
                 <div class="carte-info">
 
@@ -127,7 +127,7 @@
 
             <!-- div titre -->
             <div class="top3">
-                <h5 class="bleu">Donne vie à tes idées !</h5>
+                <h3 class="bleu">Donne vie à tes idées !</h3>
                 <h2>Gérez éfficacement vos projets</h2>
             </div>
 
@@ -244,73 +244,72 @@
         </section>
 
 
+
         <!-- section temoignages -->
-        <section class="margin-top-100 border-radius-12 shadow background-light">
-            <div class="flex justify-center">
 
-                <div>
-                    <!-- div titre -->
-                    <div>
-                        <h5>Témoignages</h5>
-                        <h3>Ils en parlent mieux que nous</h3>
-                    </div>
-                    <div class="flex gap-25">
-                        <!-- grande div-->
-                        <div class="w-48">
+        <section id="avisclient" class="margin-top-100">
+            <!-- div titre -->
+            <div class="margin-bottom-50">
 
-                            <!-- div temoignage gauche -->
-                            <div class="w-48 temoins-list">
-                                <div class="temoin flex align-center" data-id="jimi">
-                                    <img class="temoin-inner"
-                                        src="asset/Génération Active/Génération Active/Ellipse 1.png" alt="">
-                                    <div>
-                                        <p>Jimi Anderson</p>
-                                        <p>habitant du quartier</p>
-                                    </div>
-                                </div>
+                <h3 class="bleu">Témoignages</h3>
+                <h2>Ils en parlent mieux que nous</h2>
 
-                                <div class="temoin flex align-center" data-id="dino">
-                                    <img class="temoin-inner"
-                                        src="asset/Génération Active/Génération Active/Ellipse 1 (1).png" alt="">
-                                    <div>
-                                        <p>Dino Jemes</p>
-                                        <p>chanteur</p>
-                                    </div>
-                                </div>
+            </div>
+            <div class="flex space-around align-center margin-top-100">
 
-                                <div class="temoin flex align-center" data-id="barak">
-                                    <img class="temoin-inner"
-                                        src="asset/Génération Active/Génération Active/Ellipse 1 (2).png" alt="">
-                                    <div>
-                                        <p>Barak Obama</p>
-                                        <p>President USA</p>
-                                    </div>
-                                </div>
+
+
+
+
+                <!-- grande div -->
+                <div class="w-48">
+
+                    <!-- div temoignage gauche -->
+                    <div class="bleu2 ">
+                        <div class="personne">
+                            <img src="asset/Génération Active/Génération Active/Ellipse 1.png" alt="">
+                            <div>
+                                <p>Abdel Mouloud</p>
+                                <p>Habitant du quartier</p>
                             </div>
-
                         </div>
-                        <!-- div temoignage droite -->
-                        <div class="w-48">
 
-                            <h6 id="temoin-nom">Jimi Anderson</h6>
+                        <div class="personne">
+                            <img src="asset/Génération Active/Génération Active/Ellipse 1 (1).png" alt="">
+                            <div>
+                                <p>Dj Cake</p>
+                                <p>Musicien du quartier</p>
+                            </div>
+                        </div>
 
-                            <i class="ph-fill ph-star icon"></i>
-                            <i class="ph-fill ph-star icon"></i>
-                            <i class="ph-fill ph-star icon"></i>
-                            <i class="ph-fill ph-star icon"></i>
-                            <i class="ph-fill ph-star icon"></i>
-
-                            <p id="temoin-texte">Application très intuitive et bien pensée. La création et le suivi
-                                d’une association sont
-                                clairs,
-                                rapides et structurés étape par étape. La gestion des tâches et des documents fait
-                                gagner un
-                                temps précieux. Je recommande fortement.
-                            </p>
-
+                        <div class="personne">
+                            <img src="asset/Génération Active/Génération Active/Ellipse 1 (2).png" alt="">
+                            <div>
+                                <p>Bruno Bounty</p>
+                                <p class="">Chanteur du quartier</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- div temoignage droite -->
+                <div class="w-48 carte-temoignage" id="avis-detail">
+                    <h3 class="margin-bottom-30">Jimi Anderson</h3>
+
+                    <div class="margin-bottom-30">
+                        <i class="ph-fill ph-star icon"></i>
+                        <i class="ph-fill ph-star icon"></i>
+                        <i class="ph-fill ph-star icon"></i>
+                        <i class="ph-fill ph-star icon"></i>
+                        <i class="ph-fill ph-star icon"></i>
+                    </div>
+                    <p class="margin-bottom-30">
+                        Application très intuitive et bien pensée. La création et le suivi
+                        d’une association sont clairs, rapides et structurés étape par étape.
+                    </p>
+                </div>
+
+
             </div>
         </section>
 
@@ -340,6 +339,7 @@
             </div>
         </div>
     </section>
+
     <!-- footer -->
     <footer>
 
