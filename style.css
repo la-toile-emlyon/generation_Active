@@ -751,6 +751,7 @@ body{
 
 .legende.inverse{
     align-items: flex-end;
+    text-align: right;
 }
 .trait-legende{   
     margin-top: 8px;
