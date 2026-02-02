@@ -15,11 +15,11 @@ let nom = document.querySelector("#avisclient .w-48:last-child h3");
 let texte = document.querySelector("#avisclient .w-48:last-child p");
 
 function afficherAvis(daniel) {
-  // 🔹 gestion du bouton actif
+  //  gestion du bouton actif
   personnes.forEach(p => p.classList.remove("active"));
   personnes[daniel].classList.add("active");
 
-  // 🔹 contenu témoignage
+  //  contenu témoignage
   if (daniel === 0) {
     nom.textContent = "Abdel Mouloud";
     texte.textContent =

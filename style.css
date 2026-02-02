@@ -126,7 +126,7 @@ footer{
 }
 
 .w-10 {
-    width: 10%;
+    width: 20%;
 }
 
 .w-122 {
@@ -231,6 +231,10 @@ footer{
 }
 
 
+
+.margin-top-left {
+    margin-right: 100px;
+}
 
 
 .bg-color-blanc {
@@ -576,6 +580,7 @@ text-align: center;
   border-radius: 12px;
   cursor: pointer;
   transition: background 0.3s ease, transform 0.2s ease;
+  color: #2e2e2e;
 
 }
 
@@ -583,6 +588,7 @@ text-align: center;
 #avisclient .personne:not(.active):hover {
   background: #5385e9;
   transform: translateX(5px);
+  
 }
 
 /* actif fix */
@@ -590,6 +596,8 @@ text-align: center;
   background: #3934F2;
   transform: translateX(5px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    color: rgb(255, 255, 255);
+  
 }
 
 
@@ -614,6 +622,7 @@ text-align: center;
   color: #ffffff;
   margin: 0;
 }
+
 
 /* Témoignage droite */
 #avis-detail {
@@ -659,7 +668,7 @@ text-align: center;
 /* Police noir */
 
 body{
-    font-size: 14px;
+    font-size: 17px;
     color: rgb(0, 0, 0);
     font-weight: lighter;
     font-family: poppins, sans-serif;
