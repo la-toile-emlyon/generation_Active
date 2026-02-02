@@ -338,6 +338,14 @@ footer{
     
 }
 
+.text-color-blanc{
+    color: white;
+    a{
+        color: #ffffff;
+        list-style: none;
+    }
+}
+
 
 
 .ombre{
@@ -792,18 +800,6 @@ body{
 .posleg2{
     transform: translate(10px,230px);
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
