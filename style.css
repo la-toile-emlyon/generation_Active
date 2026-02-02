@@ -590,9 +590,29 @@ text-align: center;
 }
 
 /* position tel 2 */
+.pos-tel2-gauche{
+    top: 125px;
+    left: -64px;
+    .trait{
+        width: 194px;
+    }
+}
 
-
-
+/*téléphone 3*/ 
+.pos-tel3-gauche{
+ top: 50px;
+    left: -64px;
+    .trait{
+        width: 250px;
+    }
+}
+.pos-tel3-droite{
+    top: 180px;
+    left: 290px;
+    .trait{
+        width: 250px;
+    }
+}
 
 
 
