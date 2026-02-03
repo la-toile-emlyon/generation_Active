@@ -45,3 +45,6 @@ personnes.forEach((personne, index) => {
 // 🔹 sélection par défaut
 afficherAvis(0);
 
+
+
+

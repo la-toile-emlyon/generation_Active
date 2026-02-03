@@ -4,26 +4,25 @@
     padding: 0;
     text-decoration: none;
     list-style-type: none;
-    
+
 }
 
-body::before{
-    content:"";
+body::before {
+    content: "";
     width: 100%;
     height: 80px;
-   background: linear-gradient(0deg,rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .05) 100%);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .05) 100%);
     position: fixed;
-    top:0;
-    z-index:1;
-
-    
+    top: 0;
+    z-index: 1;
     backdrop-filter: blur(8px);
 }
-header{
- z-index: 10;
+
+header {
+    z-index: 10;
 }
 
-footer{
+footer {
     background-color: #001639;
     color: white;
     padding: 30px;
@@ -32,13 +31,13 @@ footer{
 
 /* Background*/
 
-.background{
+.background {
     background-color: #3732F1;
     color: white;
 }
 
 
-.img{
+.img {
     display: block;
 }
 
@@ -82,7 +81,7 @@ footer{
     justify-content: flex-start;
 }
 
-.flex-direction{
+.flex-direction {
     flex-direction: column;
 }
 
@@ -95,9 +94,11 @@ footer{
 .align-end {
     align-items: end;
 }
-.align-content{
+
+.align-content {
     align-content: flex-start;
 }
+
 /* Gap */
 
 .gap-25 {
@@ -105,7 +106,7 @@ footer{
 }
 
 .text {
-  text-align: left;
+    text-align: left;
 }
 
 
@@ -114,6 +115,7 @@ footer{
 .w-100 {
     width: 100%;
 }
+
 .w-125 {
     width: 125%;
 }
@@ -187,46 +189,52 @@ footer{
     background-size: cover;
     background-repeat: no-repeat;
     height: 80vh;
-    background-position: 100% , left 120px;
+    background-position: 100%, left 120px;
 }
 
 .carte-hero {
     background-color: white;
     border-radius: 12px;
     padding: 20px;
-    box-shadow: 0px 0px 50px  #0058e519;
+    box-shadow: 0px 0px 50px #0058e519;
     width: 38%;
 }
 
 .header {
-   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
     background-color: rgb(255, 255, 255);
- 
-  border-radius: 12px;
-  width: 90%;
-  margin: auto;
-    box-shadow: 0px 0px 50px  #0058e519;
-    a{
-        color:#000;
+
+    border-radius: 12px;
+    width: 90%;
+    margin: auto;
+    box-shadow: 0px 0px 50px #0058e519;
+
+    a {
+        color: #000;
     }
 }
 
 
-.margin-bottom-10{
+.margin-bottom-10 {
     margin-bottom: 10px;
 }
-.margin-bottom-15{
+
+.margin-bottom-5 {
+    margin-bottom: 5px;
+}
+
+.margin-bottom-15 {
     margin-bottom: 15px;
 }
 
-.margin-bottom-30{
+.margin-bottom-30 {
     margin-bottom: 30px;
 }
 
-.margin-bottom-50{
+.margin-bottom-50 {
     margin-bottom: 50px;
 }
 
@@ -238,22 +246,23 @@ footer{
     margin-top: 40px;
 }
 
-.margin-top-50{
+.margin-top-50 {
     margin-top: 50px;
 }
 
-.margin-top-60{
+.margin-top-60 {
     margin-top: 60px;
 }
 
-.margin-top-80{
+.margin-top-80 {
     margin-top: 80px;
 }
-.margin-top-100{
+
+.margin-top-100 {
     margin-top: 100px;
 }
 
-.margin-top-140{
+.margin-top-140 {
     margin-top: 140px;
 }
 
@@ -270,119 +279,123 @@ footer{
 
 
 .mini-card {
- background-color: #ffffff;
-  border-radius: 10px;       
- padding: 20px;
-  width: 170px;              
-  flex-direction: column;              
-  box-sizing: border-box; 
-  box-shadow: 0px 0px 50px  #0058e519;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 16px;
+    width: 170px;
+   
+    box-shadow: 0px 0px 50px #0058e519;
 
 }
 
 
 
 .mini-card2 {
- background-color: rgb(255, 255, 255);
-  border-radius: 10px;       
- padding: 20px;
-  width: 195px;                         
-  
-  box-shadow: 0px 0px 50px  #0058e519;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    width: 195px;
+
+    box-shadow: 0px 0px 50px #0058e519;
 
 }
 
 .carte-navigation {
- background-color: #ffffff; 
-  border-radius: 10px;  
-  cursor: pointer;
-  transition: background 0.3s ease, transform 0.2s ease;                 
-  nav{
-    border-radius: 16px;
-    padding: 16px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
 
-    a{
-        color: #000;
-        padding: 6px;
+    nav {
+        border-radius: 16px;
+        padding: 20px;
+
+        a {
+            color: #000;
+            padding: 4px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
     }
-    li{
-        margin-bottom: 8px;
-    }
-  }
+}
 
-  
-
+.carte a:hover {
+    background-color: rgba(31, 117, 255, 0.142);
+    transform: translateX(12px);
+    border-radius: 6px;
 }
 
 
-.carte-navigation .carte:not(.active):hover {
-  background: rgba(0, 255, 26, 0.119);
-  transform: translateX(5px);
-  border-radius: 12px;
-  padding: 6px;
-}
-
-.carte-navigation .carte.active {
- background-color: rgb(0, 0, 0);
-transform: translateX(5px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+.active {
+    background-color: rgba(31, 117, 255, 0.142);
+    transform: translateX(5px);
     color: rgb(255, 255, 255);
-    border-radius: 12px;
+    border-radius: 6px;
 }
+
+section {
+    scroll-margin-top: 160px;
+
+}
+
 
 
 
 
 
 .card {
-  max-width: 600px;
-  background: #eef2ff; 
-  border-radius: 24px;
-  box-shadow:
-    0 10px 25px rgba(0, 0, 0, 0.08),
-    0 4px 10px rgba(0, 0, 0, 0.04);
- 
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    max-width: 600px;
+    background: #eef2ff;
+    border-radius: 24px;
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.08),
+        0 4px 10px rgba(0, 0, 0, 0.04);
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 
 .card2 {
-  max-width: 600px;
-  background: #ffffff; 
-  border-radius: 24px;
-  padding: 24px 28px;
- 
-  box-shadow:
-    0 10px 25px rgba(0, 0, 0, 0.08),
-    0 4px 10px rgba(0, 0, 0, 0.04);
+    max-width: 600px;
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 24px 28px;
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.08),
+        0 4px 10px rgba(0, 0, 0, 0.04);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .card3 {
-  max-width: 600px;
-  background: #eef2ff; 
-  border-radius: 24px;
-  padding: 24px 28px;
-  text-align: center;
-  box-shadow:
-    0 10px 25px rgba(0, 0, 0, 0.08),
-    0 4px 10px rgba(0, 0, 0, 0.04);
+    max-width: 600px;
+    background: #eef2ff;
+    border-radius: 24px;
+    padding: 24px 28px;
+    text-align: center;
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.08),
+        0 4px 10px rgba(0, 0, 0, 0.04);
 
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
-.text-color-vert{
+
+.text-color-vert {
     color: #33B079;
 }
 
 
-.text-color-black{
+.text-color-black {
     color: black;
-    
+
 }
 
-.text-color-blanc{
+.text-color-blanc {
     color: white;
-    a{
+
+    a {
         color: #ffffff;
         list-style: none;
     }
@@ -390,21 +403,21 @@ transform: translateX(5px);
 
 
 
-.ombre{
-    
+.ombre {
+
     filter: drop-shadow(0px 0px 50px #0058e519);
 }
 
 
 /* texte bleu*/
 
-.bleu{
+.bleu {
     color: #3732F1;
 }
 
 /*boutons*/
 
-.bouton{
+.bouton {
     background-color: #1F75FF;
     padding: 5px 30px;
     border-radius: 8px;
@@ -417,15 +430,15 @@ transform: translateX(5px);
 
 /*footer*/
 /*  Top  */
-.top{
+.top {
     padding-bottom: 20px;
 }
 
-.top2{
+.top2 {
     margin-top: 5px;
 }
 
-.top3{
+.top3 {
     margin-top: 120px;
 }
 
@@ -434,8 +447,8 @@ transform: translateX(5px);
 
 
 
-.shadow{
-box-shadow: 0px 0px 50px  #0058e519;
+.shadow {
+    box-shadow: 0px 0px 50px #0058e519;
 }
 
 
@@ -457,85 +470,89 @@ box-shadow: 0px 0px 50px  #0058e519;
     background-color: white;
     border-radius: 12px;
     padding: 16px;
-    box-shadow: 0px 0px 50px  #0058e519;
+    box-shadow: 0px 0px 50px #0058e519;
     width: 24%;
-    img{
+
+    img {
         width: 100px;
         height: 100px;
         object-fit: contain;
         margin-left: 55px;
     }
-    h3{
+
+    h3 {
         font-size: 18px;
     }
 }
 
-.margin-right-50{
+.margin-right-50 {
     margin-right: 50px;
 }
 
-.padding-bottom-20{
+.padding-bottom-20 {
     padding-bottom: 20px;
 }
 
-.padding-left-20{
+.padding-left-20 {
     padding-left: 20px;
 }
 
-.padding-left-70{
+.padding-left-70 {
     padding-left: 70px;
 }
 
-.padding{
+.padding {
     padding: 16px;
 }
 
 
 /*Legende*/
 
-.trait{
-    width : 100px;
+.trait {
+    width: 100px;
     height: 4px;
     background-color: #000;
 }
-.rond{
+
+.rond {
     width: 8px;
     height: 8px;
     border-radius: 8px;
     background-color: #000;
 }
-.trait-legende{
+
+.trait-legende {
     display: flex;
-    margin-top: 8px;    
+    margin-top: 8px;
     align-items: center;
 }
 
-.legende{
-    width:50%;
-    position:absolute;
+.legende {
+    width: 50%;
+    position: absolute;
     top: 0%;
-    left:0%;
+    left: 0%;
 }
 
-.trait-gauche{
+.trait-gauche {
     flex-direction: row-reverse;
 }
 
-.relative{
+.relative {
     position: relative;
 }
 
 
-.padding2{
+.padding2 {
     padding: 20px;
 }
 
 .icon {
-  color: #fedd06;
+    color: #fedd06;
 }
 
 
-.bleu2{
+.bleu2 {
     background-color: rgb(255, 255, 255);
     padding: 10px 20px;
     border-radius: 8px;
@@ -553,27 +570,38 @@ box-shadow: 0px 0px 50px  #0058e519;
 /*   SCROOLL   */
 
 .slider-projets {
-    display: flex; /* Affichage en flexbox horizontal */
-    gap: 20px; /* Espace entre les projets */
-   
-    flex-shrink: 0; /* Empêche le rétrécissement de l'élément dans sa largeur. en gros on autorise les enfants a déborder */
-    cursor: pointer; /* Change le curseur au survol */
+    display: flex;
+    /* Affichage en flexbox horizontal */
+    gap: 20px;
+    /* Espace entre les projets */
+
+    flex-shrink: 0;
+    /* Empêche le rétrécissement de l'élément dans sa largeur. en gros on autorise les enfants a déborder */
+    cursor: pointer;
+    /* Change le curseur au survol */
 }
 
 /* Style individuel pour chaque projet */
 .projet-item {
-    width: 500px; /* Largeur fixe */
-    flex-shrink: 0; /* Empêche le rétrécissement de l'élément */
-    cursor: pointer; /* Change le curseur au survol */
+    width: 500px;
+    /* Largeur fixe */
+    flex-shrink: 0;
+    /* Empêche le rétrécissement de l'élément */
+    cursor: pointer;
+    /* Change le curseur au survol */
 }
 
 
 
 .sliderProjets-container {
-    display: flex; /* Affichage en flexbox horizontal */
-    gap: 20px; /* Espace entre les éléments enfants */
-    overflow-x: scroll; /* Permet le défilement horizontal */
-    scroll-snap-type: x mandatory; /* Défilement fluide avec arrêt sur chaque élément */
+    display: flex;
+    /* Affichage en flexbox horizontal */
+    gap: 20px;
+    /* Espace entre les éléments enfants */
+    overflow-x: scroll;
+    /* Permet le défilement horizontal */
+    scroll-snap-type: x mandatory;
+    /* Défilement fluide avec arrêt sur chaque élément */
     padding: 16px 0;
 }
 
@@ -581,10 +609,11 @@ box-shadow: 0px 0px 50px  #0058e519;
 .projet-item img {
     width: 100%;
     height: 200px;
-    object-fit: cover; 
+    object-fit: cover;
     border-radius: 8px;
-    display: block; 
+    display: block;
 }
+
 .scroll-container * {
     user-select: none;
 }
@@ -592,30 +621,30 @@ box-shadow: 0px 0px 50px  #0058e519;
 
 
 
-.fixe{
-    position: fixed ;
+.fixe {
+    position: fixed;
     width: 100%;
     z-index: 2;
-    top :20px;
+    top: 20px;
     left: 50%;
     transform: translateX(-50%);
 }
 
-.sticky{
+.sticky {
     position: sticky;
     top: 100px;
 }
 
 
 .texte-centre {
-text-align: center;
+    text-align: center;
 }
 
 
 
 
 
-.border-radius-12{
+.border-radius-12 {
     border-radius: 50px;
 }
 
@@ -633,43 +662,49 @@ text-align: center;
 
 /* position tel 1 et 3 */
 
-.pos-tel1-gauche{
+.pos-tel1-gauche {
     top: 50px;
     left: -64px;
-    .trait{
+
+    .trait {
         width: 250px;
     }
 }
 
-.pos-tel1-droite{
+.pos-tel1-droite {
     top: 214px;
     left: 290px;
-    .trait{
+
+    .trait {
         width: 250px;
     }
 }
 
 /* position tel 2 */
-.pos-tel2-gauche{
+.pos-tel2-gauche {
     top: 125px;
     left: -90px;
-    .trait{
+
+    .trait {
         width: 194px;
     }
 }
 
-/*téléphone 3*/ 
-.pos-tel3-gauche{
- top: 50px;
+/*téléphone 3*/
+.pos-tel3-gauche {
+    top: 50px;
     left: -64px;
-    .trait{
+
+    .trait {
         width: 250px;
     }
 }
-.pos-tel3-droite{
+
+.pos-tel3-droite {
     top: 180px;
     left: 290px;
-    .trait{
+
+    .trait {
         width: 250px;
     }
 }
@@ -678,7 +713,7 @@ text-align: center;
 
 
 
-.padding-50{
+.padding-50 {
     padding: 50px;
 }
 
@@ -688,31 +723,31 @@ text-align: center;
 
 /* Témoignages - colonne gauche */
 #avisclient .personne {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 12px;
-  border-radius: 12px;
-  cursor: pointer;
-  transition: background 0.3s ease, transform 0.2s ease;
-  color: #2e2e2e;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    color: #2e2e2e;
 
 }
 
 /* si pas actif */
 #avisclient .personne:not(.active):hover {
-  background: #5385e9;
-  transform: translateX(5px);
-  
+    background: #5385e9;
+    transform: translateX(5px);
+
 }
 
 /* actif fix */
 #avisclient .personne.active {
-  background: #3934F2;
-  transform: translateX(5px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    background: #3934F2;
+    transform: translateX(5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     color: rgb(255, 255, 255);
-  
+
 }
 
 
@@ -720,46 +755,47 @@ text-align: center;
 
 /* Image */
 #avisclient .personne img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 /* Texte gauche */
 #avisclient .personne p:first-child {
-  font-weight: 600;
-  margin: 0;
+    font-weight: 600;
+    margin: 0;
 }
 
 #avisclient .personne p:last-child {
-  font-size: 0.85rem;
-  color: #ffffff;
-  margin: 0;
+    font-size: 0.85rem;
+    color: #ffffff;
+    margin: 0;
 }
 
 
 /* Témoignage droite */
 #avis-detail {
-  padding: 24px;
-  border-radius: 16px;
-  transform: translate(0%, 20%);
+    padding: 24px;
+    border-radius: 16px;
+    transform: translate(0%, 20%);
 }
 
 /* Animation texte */
 .fade {
-  animation: fadeIn 0.4s ease;
+    animation: fadeIn 0.4s ease;
 }
 
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(5px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+    from {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .button-temoins {
@@ -774,16 +810,16 @@ text-align: center;
     border: 1px solid white;
     border-radius: 12px;
     padding: 20px;
-    box-shadow: 0px 0px 10px  #0058e519;
+    box-shadow: 0px 0px 10px #0058e519;
     margin-top: -9%;
-    
-   
+
+
 }
 
 
 /* Police noir */
 
-body{
+body {
     font-size: 17px;
     color: rgb(0, 0, 0);
     font-weight: lighter;
@@ -800,32 +836,34 @@ body{
 
 /*legende */
 
-.legende{
+.legende {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-   
-    p{
+
+    p {
         max-width: 200px;
     }
 }
 
-.legende.inverse{
+.legende.inverse {
     align-items: flex-end;
     text-align: right;
 }
-.trait-legende{   
+
+.trait-legende {
     margin-top: 8px;
     display: flex;
     align-items: center;
     width: 200%;
 
-    .trait1{
+    .trait1 {
         width: 100%;
         height: 2px;
         background-color: #000;
     }
-    .rond1{
+
+    .rond1 {
         width: 8px;
         height: 8px;
         background-color: #000;
@@ -833,22 +871,23 @@ body{
 
 }
 
-.inverse .trait-legende{
+.inverse .trait-legende {
     flex-direction: row-reverse;
     width: 200%;
 }
 
 
-.posleg1{
-    transform:translate(10px,146px);
-}
-.posleg2{
-    transform: translate(10px,230px);
+.posleg1 {
+    transform: translate(10px, 146px);
 }
 
+.posleg2 {
+    transform: translate(10px, 230px);
+}
 
 
-.paddin12{
+
+.paddin12 {
     padding: 7px;
 }
 
@@ -856,8 +895,10 @@ body{
 
 
 
-.bg-red{
+.bg-red {
     background-color: red;
 }
 
-.bg-bleu{background-color: blue;}
+.bg-bleu {
+    background-color: blue;
+}
