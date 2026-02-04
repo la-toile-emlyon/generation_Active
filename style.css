@@ -562,8 +562,14 @@ section {
 }
 
 
+.bold{
+    font-weight: bold;
+}
 
 
+.size{
+    font-size: larger;
+}
 
 
 
